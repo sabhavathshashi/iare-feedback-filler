@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>IARE Feedback Filler</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>IARE Feedback Filler</h1>
+
+  <label for="ratingSelect">Select the rating you want to apply to all questions:</label>
+  <select id="ratingSelect">
+    <option value="Poor">Poor</option>
+    <option value="Average">Average</option>
+    <option value="Good">Good</option>
+    <option value="Very Good">Very Good</option>
+    <option value="Excellent" selected>Excellent</option>
+  </select>
+
+  <button id="applyBtn">Apply Rating</button>
+
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
